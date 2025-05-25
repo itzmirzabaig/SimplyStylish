@@ -1,43 +1,70 @@
+/* Reset & base */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
   font-family: 'Poppins', sans-serif;
   background: #ffe6ec;
   color: #333;
-  line-height: 1.6;
+  line-height: 1.5;
 }
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+/* Site wrapper */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
   background: #ffbdd2;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
 }
-nav h1 { color: #a1005e; }
-nav ul { list-style: none; display: flex; gap: 1rem; }
-nav a {
+.logo {
+  color: #a1005e;
+  font-size: 1.8rem;
+  display: inline-block;
+}
+.main-nav {
+  float: right;
+}
+.nav-link {
   color: #a1005e;
   text-decoration: none;
+  margin-left: 1.5rem;
   font-weight: 600;
   transition: transform 0.2s;
 }
-nav a:hover { transform: scale(1.1); }
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+/* Hero Section */
 .hero {
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 4rem 0;
 }
-.hero h2 { font-size: 2.5rem; color: #a1005e; margin-bottom: 1rem; }
-.hero p { margin-bottom: 2rem; color: #c44482; }
-#newsletter {
+.hero h2 {
+  font-size: 2.5rem;
+  color: #a1005e;
+  margin-bottom: 1rem;
+}
+.hero p {
+  margin-bottom: 2rem;
+  color: #c44482;
+}
+
+/* Newsletter Form */
+.newsletter-form {
   display: inline-flex;
   gap: 0.5rem;
 }
-#newsletter input {
+.newsletter-form input {
   padding: 0.8rem;
   border: 2px solid #e676a9;
   border-radius: 0.5rem;
   font-size: 1rem;
 }
-#newsletter button {
+.newsletter-form button {
   padding: 0.8rem 1.2rem;
   background: #ff4da6;
   color: #fff;
@@ -46,11 +73,17 @@ nav a:hover { transform: scale(1.1); }
   cursor: pointer;
   transition: background 0.3s;
 }
-#newsletter button:hover { background: #db3e8c; }
-footer {
-  text-align: center;
-  padding: 1rem;
+.newsletter-form button:hover {
+  background: #db3e8c;
+}
+
+/* Footer */
+.site-footer {
   background: #ffbdd2;
-  color: #a1005e;
+  text-align: center;
+  padding: 1rem 0;
   margin-top: auto;
+}
+.site-footer p {
+  color: #a1005e;
 }
