@@ -1,137 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Simply Stylish</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join the Luxe List</title>
   <style>
-    body {
+    /* 🌟 Base Reset */
+    * {
       margin: 0;
       padding: 0;
-      background: linear-gradient(120deg, #fbe4f1, #ffe0ec);
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
       font-family: 'Poppins', sans-serif;
-      color: #222;
+      overflow: hidden;
     }
 
-    .container {
-      max-width: 700px;
-      margin: 60px auto;
-      background: white;
-      padding: 40px;
-      border-radius: 25px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
-      text-align: center;
+    /* 💖 Luxe Gradient Background with Shimmer Layers */
+    body {
+      background: radial-gradient(circle at top left, #ffc4dd, #ff9bc1, #ff76aa);
+      display: flex;
+      align-items: center;
+      justify-content: center;
       position: relative;
-      z-index: 1;
     }
 
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.8rem;
-      color: #e91e63;
-      margin-bottom: 10px;
+    .glow-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: repeating-radial-gradient(circle, rgba(255,255,255,0.03) 1px, transparent 3px),
+                  linear-gradient(120deg, rgba(255,255,255,0.04), rgba(255,255,255,0));
+      animation: pulseGlow 8s ease-in-out infinite alternate;
+      z-index: 0;
     }
 
-    p {
-      margin-bottom: 30px;
-      color: #555;
-      font-size: 1.1rem;
+    @keyframes pulseGlow {
+      0% { opacity: 0.5; transform: scale(1); }
+      100% { opacity: 0.9; transform: scale(1.05); }
+    }
+
+    /* 🎀 Form Container */
+    .newsletter-container {
+      position: relative;
+      z-index: 2;
+      background: white;
+      padding: 3rem 3rem 2.5rem;
+      border-radius: 2rem;
+      box-shadow: 0 0 60px rgba(204, 58, 126, 0.35);
+      max-width: 480px;
+      width: 90vw;
+      text-align: center;
+    }
+
+    .newsletter-container h1 {
+      font-size: 2.5rem;
+      color: #a70052;
+      margin-bottom: 0.5rem;
+    }
+
+    .newsletter-container p {
+      color: #c94f8a;
+      font-size: 1.15rem;
+      margin-bottom: 1.8rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
     }
 
     input[type="email"] {
-      padding: 14px 16px;
-      border: 2px solid #e91e63;
-      border-radius: 10px;
-      width: 70%;
+      padding: 1rem 1.25rem;
       font-size: 1rem;
-      margin-bottom: 20px;
+      border-radius: 1rem;
+      border: 2px solid #e676a9;
       outline: none;
-      transition: all 0.3s ease;
+      transition: 0.3s;
     }
 
     input[type="email"]:focus {
-      border-color: #d81b60;
+      border-color: #ffaad4;
     }
 
     button {
-      background: #e91e63;
+      background: linear-gradient(45deg, #db3e8c, #ff7fbd);
       color: white;
+      padding: 1rem;
+      font-size: 1.15rem;
+      font-weight: bold;
       border: none;
-      padding: 14px 24px;
-      border-radius: 10px;
+      border-radius: 1rem;
       cursor: pointer;
-      font-size: 1rem;
-      transition: transform 0.3s ease, background 0.3s ease;
+      box-shadow: 0 5px 15px rgba(219, 62, 140, 0.45);
+      transition: 0.3s;
     }
 
     button:hover {
-      background: #d81b60;
-      transform: scale(1.05);
+      background: linear-gradient(45deg, #ff7fbd, #db3e8c);
     }
 
-    .bg-animation {
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 0;
-      width: 100%;
-      height: 100%;
-      background: radial-gradient(circle, rgba(255,192,203,0.2) 10%, transparent 11%);
-      background-size: 50px 50px;
-      animation: drift 10s linear infinite;
-      opacity: 0.6;
+    .response-message {
+      font-size: 1rem;
+      color: #a8396e;
+      margin-top: 1rem;
+      min-height: 1.5rem;
     }
 
-    @keyframes drift {
-      0% { background-position: 0 0; }
-      100% { background-position: 100px 100px; }
+    /* ✨ Floating Bokeh Dots */
+    .bokeh {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      overflow: hidden;
+      z-index: 1;
+      pointer-events: none;
     }
 
+    .dot {
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 50%;
+      animation: floatUp 15s linear infinite;
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(100vh) scale(0.5);
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.3;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.2);
+        opacity: 0;
+      }
+    }
   </style>
 </head>
 <body>
 
-  <div class="bg-animation"></div>
+  <div class="glow-overlay"></div>
+  <div class="bokeh" id="bokeh-layer"></div>
 
-  <div class="container">
-    <h1>Simply Stylish</h1>
-    <p>Join the Luxe List for exclusive drops, updates, and affiliate offers.</p>
-    <form id="newsletter-form" method="POST" action="https://script.google.com/macros/s/AKfycbxu2nAKJ9m48eJPGF_0APHJEFHHZQ9O56BhbXeThvzi/dev">
-      <input type="email" name="email" placeholder="Enter your email" required>
-      <br>
+  <section class="newsletter-container">
+    <h1>Join the Luxe List</h1>
+    <p>Get VIP access, secret drops & glam rewards.</p>
+
+    <form id="newsletter-form">
+      <input type="email" name="email" placeholder="Enter your email ✨" required />
       <button type="submit">Subscribe</button>
+      <span class="response-message" id="response"></span>
     </form>
-  </div>
+  </section>
 
   <script>
-    const form = document.getElementById("newsletter-form");
+    // Bokeh animation dots generator
+    const bokehLayer = document.getElementById('bokeh-layer');
+    for (let i = 0; i < 40; i++) {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      dot.style.left = `${Math.random() * 100}%`;
+      dot.style.animationDuration = `${10 + Math.random() * 10}s`;
+      dot.style.width = dot.style.height = `${10 + Math.random() * 25}px`;
+      bokehLayer.appendChild(dot);
+    }
 
-    form.addEventListener("submit", async (e) => {
+    // Google Sheets Newsletter Handler
+    const form = document.getElementById('newsletter-form');
+    const responseEl = document.getElementById('response');
+
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const formData = new FormData(form);
-      const data = {};
-      formData.forEach((value, key) => data[key] = value);
+      responseEl.textContent = 'Sending...';
+      const data = new FormData(form);
 
       try {
-        const res = await fetch(form.action, {
-          method: "POST",
-          body: JSON.stringify(data),
-          headers: {
-            "Content-Type": "application/json",
-          },
+        const res = await fetch('https://script.google.com/macros/s/AKfycbwg3e_U5_3GYOFlKYuxpFx_q7YlFglUaU5KHmh-QnhVqXJV9iUWU07MTBjRZ2g4dce3SQ/exec', {
+          method: 'POST',
+          body: data
         });
 
         if (res.ok) {
-          alert("Thank you for subscribing!");
+          responseEl.textContent = "You're in 💎 Welcome to the Luxe List!";
           form.reset();
         } else {
-          alert("There was an error. Please try again later.");
+          throw new Error('Submission failed');
         }
-      } catch (error) {
-        alert("Network error. Try again later.");
+      } catch {
+        responseEl.textContent = "Something went wrong. Try again!";
       }
     });
   </script>
-
 </body>
 </html>
