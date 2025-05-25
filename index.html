@@ -1,37 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Simply Stylish</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #fbe4f1, #ffe0ec);
+      font-family: 'Poppins', sans-serif;
+      color: #222;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      color: #e91e63;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 30px;
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    input[type="email"] {
+      padding: 14px 16px;
+      border: 2px solid #e91e63;
+      border-radius: 10px;
+      width: 70%;
+      font-size: 1rem;
+      margin-bottom: 20px;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    input[type="email"]:focus {
+      border-color: #d81b60;
+    }
+
+    button {
+      background: #e91e63;
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    button:hover {
+      background: #d81b60;
+      transform: scale(1.05);
+    }
+
+    .bg-animation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, rgba(255,192,203,0.2) 10%, transparent 11%);
+      background-size: 50px 50px;
+      animation: drift 10s linear infinite;
+      opacity: 0.6;
+    }
+
+    @keyframes drift {
+      0% { background-position: 0 0; }
+      100% { background-position: 100px 100px; }
+    }
+
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="logo">Simply Stylish</h1>
-      <nav class="main-nav">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="explore.html" class="nav-link">Explore</a>
-        <a href="contact.html" class="nav-link">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <main class="hero">
-    <div class="container">
-      <h2>Welcome to Simply Stylish</h2>
-      <p>Your go-to affiliate for accessories, footwear, perfume, and home décor.</p>
-      <form id="newsletter" class="newsletter-form">
-        <input type="email" name="email" placeholder="Enter your email" required />
-        <button type="submit">Join the Luxe List</button>
-      </form>
-    </div>
-  </main>
+  <div class="bg-animation"></div>
 
-  <footer class="site-footer">
-    <p>© 2025 Simply Stylish. All rights reserved.</p>
-  </footer>
+  <div class="container">
+    <h1>Simply Stylish</h1>
+    <p>Join the Luxe List for exclusive drops, updates, and affiliate offers.</p>
+    <form id="newsletter-form" method="POST" action="https://script.google.com/macros/s/AKfycbxu2nAKJ9m48eJPGF_0APHJEFHHZQ9O56BhbXeThvzi/dev">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <br>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("newsletter-form");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const data = {};
+      formData.forEach((value, key) => data[key] = value);
+
+      try {
+        const res = await fetch(form.action, {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+
+        if (res.ok) {
+          alert("Thank you for subscribing!");
+          form.reset();
+        } else {
+          alert("There was an error. Please try again later.");
+        }
+      } catch (error) {
+        alert("Network error. Try again later.");
+      }
+    });
+  </script>
+
 </body>
 </html>
