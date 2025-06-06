@@ -1,0 +1,904 @@
+/*
+Theme Name: Rebecca Child
+Template: rebecca
+*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Assistant:wght@200;300;400;500;600;700;800&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.brave_popup .brave_popup__close.brave_popup__close--icon {
+    opacity: 1;
+}
+.homecollections .qodef-qi-divided-showcase-carousel .qodef-divided-showcase-carousel-text .swiper-slide .qodef-m-title a::after , .qodef-qi-divided-showcase-carousel .swiper-pagination{ display:none!important;}
+
+
+body.home .qodef-header-logo-link{ opacity:0!important}
+
+body.home #qodef-page-header-inner.qodef-skin--light .qodef-header-logo-link img.qodef--light {
+    opacity: 0;
+}
+.brave_popup .brave_element.brave_element--form .brave_form_field input::placeholder{ color:#fff; font-size:15px;}
+#brave_popup_5418__step__0 #brave_element--NnvCSAFOZBg0N1xCvEI input, #brave_popup_5418__step__0 #brave_element--NnvCSAFOZBg0N1xCvEI textarea, #brave_popup_5418__step__0 #brave_element--NnvCSAFOZBg0N1xCvEI select {
+    padding: 14px;
+    background-color: transparent;
+    color: rgba(255,255,255, 1);
+    font-size: 15px;
+    border-width: 0px;
+    border-bottom: 2px solid #1A1A1A;
+    border-radius: 0px;
+    font-family: Lato;
+    border-style: solid;
+}
+html .home_page_top_heading h1{
+   
+
+   background:url(../images/1-5.jpg) repeat fixed;
+    -webkit-background-clip:text;
+       background-clip: text;
+
+     -webkit-text-fill-color:transparent;
+   text-fill-color: transparent;
+   /* animation : bp 8s infinite linear;*/
+    background-size: contain;
+  }
+  
+
+@keyframes bp {
+  100%   { background-position: 0% 552px; }
+  0% { background-position: 0% 0px; }
+}
+.pum-theme-lightbox .pum-container{
+    margin-left: 0px;
+    width: 35%!important;
+    height: 100%!important;
+    left: auto!important;
+    right: 0px !important;
+    top: 0px!important;
+    min-width: 0%;
+    max-width: 100%;
+    display: block;
+    opacity: 1;
+}
+.pum-theme-lightbox .pum-content input[type=email], .pum-theme-lightbox .pum-content input[type=number], .pum-theme-lightbox .pum-content input[type=password], .pum-theme-lightbox .pum-content input[type=search], .pum-theme-lightbox .pum-content input[type=tel], .pum-theme-lightbox .pum-content input[type=text], .pum-theme-lightbox .pum-content input[type=url], .pum-theme-lightbox .pum-content textarea
+.pum-theme-lightbox .pum-content {
+    color: #ffffff;
+    margin-top: 15%;
+    font-family: Assistant;
+    vertical-align: middle;
+    font-weight: 400;
+    /* display: flex; */
+}
+
+#qodef-woo-page.qodef--single .qodef-woo-single-image {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+.homecollections h6 , body{ text-transform:inherit;}
+#qodef-woo-page.qodef--single .wpgs-for{
+    float: right;
+    width: 75%;
+}
+.wpgs-nav .slick-slide {
+    border: none!important;
+    border-color: transparent;
+    width: 100%!important;
+}
+.wpgs-nav .slick-slide img {
+    width: 100%;
+    display: block;
+}
+#qodef-woo-page.qodef--single .wpgs-nav {
+    float: left;
+    width: 20%;
+}
+#qodef-woo-page.qodef--single .entry-summary .price {
+	display: none;}
+.mores{    display: block;
+    margin-top: 50px;
+}
+.mores a{color: #1A1A1A;
+
+font-family: 'Roboto', sans-serif;
+width: 245px; display: block;
+    text-align: center;
+height: 63.238px; border: 1px solid #1A1A1A;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height:  63.238px;}
+.ljnkjfdgs{color: #1A1A1A;     margin-top: 10px;
+
+margin-bottom: 25px;     display: block;
+text-transform:uppercase;
+font-family: Assistant;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 3.3px;}
+.lijufd {
+    color: #1A1A1A;
+    font-family: Avenir Next;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 25px;
+}
+body p{color: #1A1A1A;
+
+font-family: Avenir Next;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;}
+.prdctfltr_wc .prdctfltr_filter_title , .prdctfltr_wc .prdctfltr_buttons {
+	display: none!important;}
+.qodef-woo-results {
+    display: none!important;
+}
+.shop_attributes  th , .shop_attributes  td{
+    padding: 0 5px 0 0;
+    text-align: left;
+    border: none!important;
+    display: inline;
+}
+table.shop_attributes   tr  , table.shop_attributes tbody{
+    border: none;
+    display: block; width:100%
+}
+#qodef-woo-page.qodef--single .shop_attributes td, #qodef-woo-page.qodef--single .shop_attributes th {
+    padding: 0; text-transform:uppercase;
+    vertical-align: inherit;
+    text-align: left;
+    display: inline-block;
+    margin-right: 6px;
+}
+.product_meta a{
+    margin-left: 6px;
+}
+
+#qodef-woo-page.qodef--single .product_meta {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 0;
+}
+#qodef-woo-page.qodef--single .woocommerce-product-details__short-description {
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+.shop_attributes th::after{ content:":";}
+.shop_attributes td p, .shop_attributes th{
+    color: #1A1A1A!important;
+    font-family: 'Assistant', sans-serif!important;
+ text-transform:uppercase;
+    font-size: 15px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: normal!important;
+    letter-spacing: 1.8px!important;
+    /* position: relative; */
+    /* display: flex; */
+    margin-bottom: 4px;
+}
+#qodef-woo-page.qodef--single .product_meta>* {
+    color: #1A1A1A!important;
+    font-family: 'Assistant', sans-serif;  text-transform:uppercase;
+
+    font-size: 15px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: normal!important;
+    letter-spacing: 1.8px!important;
+    /* position: relative; */
+    /* display: flex; */
+    margin-bottom: 4px;
+}
+.qodef-fullscreen-menu-animate--in #qodef-fullscreen-area{
+    width: 60%!important;
+    left: auto!important;
+    right: 0!important;
+    padding-left: 10%!important;
+}
+.qodef-opener-icon.qodef-source--svg-path.qodef-fullscreen-menu-opener .qodef--close svg g line {
+    stroke: #fff!important;
+
+}
+#wptime-plugin-preloader{ background-size:120px!important}
+#qodef-woo-page .qodef-woo-product-title, .qodef-woo-shortcode .qodef-woo-product-title{color: #1F1F1F;
+
+font-family: Athelas;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.84px;}
+.prdctfltr_filter label {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1F1F1F;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 193.187%;
+    margin-bottom: 0;
+}
+.prdctfltr_widget_title {     position: relative;
+    color: #1F1F1F;
+    font-family: Athelas;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.archive #qodef-page-header-inner {
+    border-bottom: none;
+}
+.qodef-header-sticky{ border:none!important}
+html #qodef-woo-page.qodef--single .related {
+    margin-top: 140px;
+}
+
+body.qodef-header--sticky-display .qodef-header-logo-link{opacity:0!important}
+#qodef-woo-page.qodef--single .related>h2{ display:none!important;}
+.homecollections .qodef-qi-swiper-container.qodef-swiper--initialized {
+    visibility: visible;
+    width: 60%!important;
+}
+.woocommerce-page.single-product #qodef-page-inner {
+    padding: 178px 0 91px;
+}
+.woocommerce-page.single-product .qodef-woo-product-title{color: #1A1A1A;
+
+text-align: ;
+font-family: Athelas;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.68px;}
+#qodef-woo-page.qodef--single .woocommerce-product-rating {
+	display: none!important;}
+.homecollections .qodef-qi-divided-showcase-carousel .qodef-divided-showcase-carousel-text {
+    visibility: visible;
+    width: 40%!important;
+}
+.homecollections  .qodef-qi-divided-showcase-carousel .qodef-divided-showcase-carousel-text .swiper-slide {
+    padding-right: 30%;
+}
+
+#qodef-woo-page.qodef--single .woocommerce-product-gallery.woocommerce-product-gallery--columns-4 .woocommerce-product-gallery__image {
+    margin-bottom: 15px;
+}
+.homecollections h6 {
+    color: #1F1F1F;
+    text-align: ;
+    font-family: Athelas;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+     line-height: 80px!important;
+    letter-spacing: 4.48px;
+    margin-bottom: 20px!important;
+}
+.prdctfltr_widget_title::after {
+    content: "";
+    width: 107px;
+    height: 1px;
+    background: #666565;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+.prdctfltr_wc.prdctfltr_square .prdctfltr_filter label>span:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 1px solid #4C5A64;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-right: 12px;
+    box-sizing: content-box;
+    background: #F1EFEB;
+}
+.prdctfltr_widget_title {    display: block; border-bottom: 1px solid #CCCCCD!important;
+    opacity: 1!important;
+    padding-bottom: 18px!important;
+    margin-bottom: 25px!important;}
+.qodef-woo-product-list .qodef-woo-product-image {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    width: 100%;
+}
+
+body p{color: #1F1F1F;
+
+font-family: 'Roboto', sans-serif;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; }
+
+
+.home_page_top_heading h1 {
+    display: inline-block;
+    background-attachment: fixed;
+       -webkit-background-attachment: scroll;
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(../images/RebeccaBonaci_Guf_LAttard21June2023_20A9486-2-1.jpg);
+    color: transparent;
+    font-weight: bolder!important; font-family: "athelas", serif;
+
+}
+
+.home_page_top_heading strong , .home_page_top_heading b{  font-family: "athelas", serif;
+ display:block;}
+
+.home_page_top_heading b{
+    font-size: 320px; font-family: "athelas", serif;
+
+    line-height: 230px;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{font-family: "athelas", serif!important; text-transform: inherit;}
+.home_page_top_heading strong{ font-family: "athelas", serif;
+
+    font-size: 25px;
+    line-height: 100%;
+}
+
+.home_page_top_heading em{ font-family: "athelas", serif;
+
+font-size: 150px;
+    line-height: 100px;
+    font-style: normal;
+}
+
+.home2 h2 {
+    color: #1F1F1F;
+    border-bottom: 1px solid rgba(31, 31, 31, .2);
+  font-family: "athelas", serif;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1.68px;
+    padding-bottom: 15px;
+}
+
+.home2 p{color: #1F1F1F;
+
+font-family: Alatsi;font-family: "athelas", serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 149.707%;}
+
+#qodef-page-header-inner.qodef-skin--light .qodef-opener-icon.qodef-source--svg-path svg line, #qodef-page-header-inner.qodef-skin--light .qodef-opener-icon.qodef-source--svg-path svg polyline, .qodef-custom-header-layout.qodef-skin--light .qodef-opener-icon.qodef-source--svg-path svg line, .qodef-custom-header-layout.qodef-skin--light .qodef-opener-icon.qodef-source--svg-path svg polyline {
+    stroke: rgba(31, 31, 31, 1);
+}
+
+#qodef-page-header-inner.qodef-skin--light .qodef-opener-icon.qodef-source--svg-path .qodef--close svg line{     stroke: #fff!important;}
+
+#qodef-fullscreen-area {
+	background-color: rgba(115, 111, 96, 0.97)!important;}
+
+.qodef-header-sticky {
+	background: #FEFBF4!important;}
+qodef-fullscreen-area .qodef-content-grid .qodef-fullscreen-menu {
+    width: 100%;
+}
+
+.qodef-fullscreen-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: auto;
+}
+
+ .qodef-fullscreen-menu>ul>li>a{
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:75px;
+    text-transform: uppercase;
+}
+.homesec2 h2 {
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+    color: #1F1F1F;
+    text-align: ;
+    font-family: Athelas;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    padding-bottom: 20px;
+    margin-bottom: 40px!important;
+}
+
+.homesec2 p{color: #1F1F1F;
+
+font-family: Alatsi;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 149.707%; }
+
+.home_page_top_heading h1{ position:relative; 5}
+.home_page_top_heading h1::before {
+    content: "ARTIST";
+    -webkit-text-fill-color: #f2c685!important;
+    font-size: 30px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    letter-spacing: 15px;
+    position: absolute;
+    left: 20px;
+    top: 45px;
+}
+
+.cpti h2{color: #1F1F1F;
+
+text-align: center;
+font-family: 'Assistant', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 19.2px;}
+.portpage .qodef-m-info .qodef-m-subtitle span {
+    color: #1F1F1F;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 4.48px;
+}
+
+.portpage .qodef-m-info h2 span{color: #1F1F1F;
+
+text-align: center;
+   font-family: 'Assistant', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 12px;}
+
+
+.portpage .qodef-m-info  p {color: #1F1F1F;
+
+text-align: right;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; }
+.cinside h2{color: #1F1F1F;
+
+text-align: ;
+font-family: Athelas;
+font-size: 75px;
+font-style: normal;
+font-weight: 400;
+line-height:75px;
+letter-spacing: 4.48px;}
+.cinside h5{color: #1F1F1F!important;
+
+text-align: ;
+font-family: Assistant;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 12px;}
+.cinside p{color: #1F1F1F;
+
+font-family: Avenir Next;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;}
+.cinside p a{color: #1F1F1F;
+text-decoration:underline;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;}
+
+.homelast h6 span{    color: #1F1F1F;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 4.48px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+	html .newpro  .qodef-woo-product-list ul.products {
+    column-count: 1;
+     column-gap: 0px;
+
+    display: uoihdsf;
+}
+
+	html .home_page_top_heading h1{
+
+    animation : bp 16s infinite linear;
+  }
+	html .brave_popup .brave_element.brave_element--form .brave_form_field {
+    width: 100%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    margin: 10px 0!important;
+}
+	
+	html .brave_popup .brave_element.brave_element--form .brave_form_field input{ border-bottom:1.5px solid #fff!important;}
+	html .brave_popup .brave_element.brave_element--form{
+    width: 86%!important;
+    margin: 0 auto;     left: 6%!important;}
+	html .brave_popup__step__elements {
+    width: 100%!important;
+    display: block;
+}
+	html body.home #qodef-page-mobile-header .qodef-mobile-header-logo-link img.qodef--main {
+    opacity: 0;
+}
+	html body .homecollections .qodef-qi-swiper-container.qodef-swiper--initialized img{ margin-top:30px!important;}
+
+.brave_popup__step__inner {
+    width: 100%!important;
+    height: 100%;
+    font-family: Lato;
+}
+
+
+	.order1{ order:1; margin-top:50px!important;}
+	.order2{ order:2}
+	html .home_page_top_heading h1 {
+    position: relative;
+    display: block;
+    text-align: left;
+    font-size: 66px;
+    margin-top: 0;
+}
+	html body .home_page_top_heading em {
+    font-family: "athelas", serif;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: normal;
+}
+	html body .home_page_top_heading b {
+    font-size: inherit;
+    font-family: "athelas", serif;
+    line-height: inherit;
+}
+	html body .home_page_top_heading h1::before {
+    content: "ARTIST";
+    -webkit-text-fill-color: #f2c685!important;
+    font-size: 30px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    letter-spacing: 15px;
+    position: relative;
+    left: auto;
+    top: auto;
+    display: block;
+    text-align: left;
+}
+	html body.qodef-mobile-header--sticky-display .qodef-mobile-header-logo-link{ opacity:0!important;}
+	html #qodef-page-mobile-header.qodef-skin--light svg {
+    color: #1F1F1F;
+}
+	
+	html .cinside h2 {
+    color: #1F1F1F;
+    text-align: ;
+    font-family: Athelas;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 4.48px;
+}
+	html #qodef-page-mobile-header.qodef-skin--light {
+    background-color: #FEFBF4!important;
+}
+	html .woocommerce-page.single-product #qodef-page-inner {
+    padding: 65px 0 91px;
+}
+	html .wpgs-nav .slick-slide {
+    border: none!important;
+    border-color: transparent;
+    width: 22%!important;
+    float: left;
+}
+	html .wpgs-nav .slick-track {
+    transform: inherit !important;
+    width: 100%!important;
+}
+	html #qodef-woo-page.qodef--single .wpgs-nav {
+    float: left;
+    width: 100%;
+}
+	html #qodef-woo-page.qodef--single .wpgs-for {
+    float: right;
+    width: 100%;
+}
+
+
+	html #qodef-woo-page.qodef--single .qodef-woo-single-image {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+	html .homecollections .qodef-qi-swiper-container.qodef-swiper--initialized {
+    visibility: visible;
+    width: 100%!important;
+}
+	html .homecollections .qodef-qi-divided-showcase-carousel .qodef-divided-showcase-carousel-text .swiper-slide {
+    padding-right: 0;
+    width: 100%!important;
+}
+	html .home_page_top_heading b {
+    font-size: 93px;
+    font-family: "athelas", serif;
+    line-height: 126px;
+}
+	html .home_page_top_heading em {
+    font-family: "athelas", serif;
+    font-size: 77px;
+    line-height: 89px;
+    font-style: normal;
+}
+	html .home_page_top_heading h1::before {
+    content: "ARTIST";
+    -webkit-text-fill-color: #f2c685!important;
+    font-size: 45px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    letter-spacing: 15px;
+    position: absolute;
+    left: 0;
+    top: -68px;
+}
+	
+	html .qodef-fullscreen-menu-animate--in #qodef-fullscreen-area {
+    width: 100%!important;
+    left: auto!important;
+    right: 0!important;
+    padding-left: 0%!important;
+    z-index: 99999;
+}
+	html .qodef-fullscreen-menu>ul>li>a {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+	html #qodef-page-inner {
+    position: relative;
+    padding: 30px 0 70px;
+}
+	html #qodef-page-mobile-header {
+    background-color: #FEFBF4;
+    z-index: 10000;
+}
+	
+	html .cpti h2 {
+    color: #1F1F1F!important;
+    text-align: center;
+    font-family: 'Assistant', sans-serif!important;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400!important;
+    line-height: normal;
+    letter-spacing: 10.2px;
+}
+	
+	html .portpage .elementor-element-populated{ padding:0!important}
+	html .portpage	.qodef-info-section.qodef-layout--background-text .qodef-m-subtitle ,  	html .portpage  .qodef-info-section.qodef-layout--background-text .qodef-m-title , html .portpage  .qodef-info-section.qodef-layout--background-text p.qodef-m-text{text-align: left!important;}
+	
+	html .portpage 	{
+    margin-bottom: 70px;
+}
+	html .portpage .qodef-button.qodef-layout--round {
+    width: 122px!important;
+    height: 122px!importrant;
+}
+}
+
+html .elementor-posts .elementor-post__card .elementor-post__title {
+    color: #1F1F1F;
+    font-family: Athelas!important;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.84px;
+}
+
+html #qodef-page-header-inner.qodef-header-border-bottom {
+    border-bottom: none;
+}
+html #qodef-page-header-inner.qodef-header-border-bottom{
+    background: #FEFBF4;
+}
+
+body {
+    background: #FEFBF4;
+}
+.homecollections h6::before{ content:"LATEST WORK"; display:block; color: #1F1F1F;
+
+text-align: left;
+font-family: Assistant;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; margin-bottom: 20px;
+letter-spacing: 12px;}
+.prdctfltr_wc.prdctfltr_square .prdctfltr_filter label.prdctfltr_active>span:before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: 1px solid #4C5A64;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-right: 12px;
+    box-sizing: content-box;
+    background: #1F1F1F;
+}
+.homecollections .qodef-qi-divided-showcase-carousel .qodef-divided-showcase-carousel-text .swiper-slide .qodef-m-title a::after {
+    content: "View";
+    color: #1F1F1F;
+    text-align: center;
+    font-family: Assistant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.6px;
+    background: url(../images/btn-1.svg);
+    width: auto;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-left: 33px;
+    background-size: 19px;
+    right: 15%;
+    position: absolute;
+    background-position: 0px 19px;
+    display: block;
+    padding-top: 14px;
+}
+.homecollections .qodef-qi-divided-showcase-carousel .qodef-divided-showcase-carousel-text .swiper-slide .qodef-m-title a{
+    width: 100%;
+    display: block;
+    padding-bottom: 35px;
+}
+
+.qodef-blog:not(.qodef-shortcode) .qodef-blog-item .qodef-e-info .qodef-e-info-item.qodef-e-info-category {
+    padding: 0;
+    display: none;
+}
+
+#qodef-page-spinner .qodef-m-inner {
+    background-color: rgb(254,251,244);
+    background-image: url(../images/Loader.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+html #qodef-page-spinner.qodef-layout--pulse .qodef-m-pulse {
+	opacity: 0;}
+
+body.qodef-header--sticky-display .qodef-header--minimal #qodef-page-header {
+    background-color: transparent!important;
+}
+
+body.qodef-header--sticky-display .qodef-header-sticky {
+    background: none!important;
+}
+
+body.qodef-mobile-header--sticky-display .qodef-header--minimal #qodef-page-header {
+    background-color: transparent;
+}
+
+html body.qodef-mobile-header--sticky-display  #qodef-page-mobile-header {
+    background-color: transparent!important;
+    z-index: 10000;
+}
+
+
+.newpro .qodef-grid.qodef-layout--template>.qodef-grid-inner>.qodef-grid-item.qodef-col-push--4 {
+    float: right;
+    width: 75%;
+    padding-left: 35px;
+}
+.newpro  .qodef-woo-product-list ul.products {
+    column-count: 3;
+     column-gap: 0px;
+
+    display: uoihdsf;
+}
+
+.qodef-woo-product-list ul.products {
+    position: inherit;
+    display: inline-block;
+    align-items: inherit;
+    flex-wrap: inherit;
+    padding: inherit;
+    margin: inherit;
+    list-style: inside;
+    clear: inline-end;
+}
+.newpro .qodef-woo-product-list ul.products.columns-3>.product {
+    /* width: 30.33333%; */
+    display: inline-block;
+    margin-bottom: 16px; padding: 0 12px;
+    width: 100%;
+}
+.elementor-slideshow__title {
+	display: none;}
+
+.homecollections .qodef-qi-divided-showcase-carousel .qodef-divided-showcase-carousel-text .swiper-slide .qodef-m-title a::after{
+    position: relative;
+    padding: 0;
+    display: inline-block;
+    width: 212px!important;
+    height: 212px!important;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 15px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.homecollections .qodef-qi-divided-showcase-carousel .qodef-divided-showcase-carousel-text.qodef-qi--text-animation-fade-in .swiper-slide .qodef-m-button {
+    float: right;
+    right: 24%;
+    left: auto;
+    transform: none;
+    margin: 0 0 0;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.entry-summary .ljnkjfdgs{
+	margin-top:-250px!important;
+}
